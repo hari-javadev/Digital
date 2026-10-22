@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects Worked - BrightMark Digital Marketing Agency</title>
+  
+  <meta name="description" content="Explore our portfolio of digital marketing case studies, responsive websites, e-commerce stores, SEO growth campaigns, and paid advertising funnels.">
+  <meta name="theme-color" content="#FF650F">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg site-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand-wrapper" href="index.html">
+        <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="BrightMark Logo">
+          <circle cx="8" cy="26" r="4.5" fill="#FF650F" />
+          <circle cx="18" cy="22" r="3.5" fill="#FF7A1A" />
+          <path d="M7 26L14 15L22 21L29 7" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M22 7H29V14" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="brand-text-block">
+          <span class="brand-name">BrightMark</span>
+          <span class="brand-sub">Digital Marketing Agency</span>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+          <!-- 1. Home -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="index.html">Home</a>
+          </li>
+
+          <!-- 2. Our Services (Dropdown) -->
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-link-custom dropdown-toggle" href="services.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu dropdown-menu-custom shadow-lg" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="services/web-design.html"><i class="bi bi-laptop"></i> Web Design &amp; Development</a></li>
+              <li><a class="dropdown-item" href="services/ecommerce.html"><i class="bi bi-cart3"></i> E-commerce Development</a></li>
+              <li><a class="dropdown-item" href="services/seo.html"><i class="bi bi-search"></i> Search Engine Optimization (SEO)</a></li>
+              <li><a class="dropdown-item" href="services/social-media.html"><i class="bi bi-megaphone"></i> Social Media Marketing</a></li>
+              <li><a class="dropdown-item" href="services/google-ads.html"><i class="bi bi-cursor"></i> Google Ads &amp; PPC</a></li>
+              <li><a class="dropdown-item" href="services/content-marketing.html"><i class="bi bi-file-earmark-text"></i> Content Marketing</a></li>
+              <li><a class="dropdown-item" href="services/branding.html"><i class="bi bi-palette"></i> Branding &amp; Graphic Design</a></li>
+              <li><a class="dropdown-item" href="services/email-marketing.html"><i class="bi bi-envelope-paper"></i> Email Marketing</a></li>
+              <li><a class="dropdown-item" href="services/website-redesign.html"><i class="bi bi-arrow-repeat"></i> Website Redesign</a></li>
+              <li><a class="dropdown-item" href="services/local-marketing.html"><i class="bi bi-geo-alt"></i> Local SEO &amp; Marketing</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item fw-bold text-orange" href="services.html"><i class="bi bi-grid-fill"></i> View All Services &rarr;</a></li>
+            </ul>
+          </li>
+
+          <!-- 3. Projects Worked (Active) -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom active" href="projects.html">Projects Worked</a>
+          </li>
+
+          <!-- 4. Blog -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="blog.html">Blog</a>
+          </li>
+
+          <!-- 5. Contact Us -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+
+        <div class="d-none d-lg-block">
+          <a href="contact.html" class="btn-orange navbar-btn-talk">
+            Let's Talk <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Subpage Hero Banner -->
+  <header class="subpage-hero">
+    <div class="container">
+      <ul class="breadcrumb-custom">
+        <li><a href="index.html">Home</a></li>
+        <li class="separator">/</li>
+        <li class="active">Projects Worked</li>
+      </ul>
+      <div class="badge-pill-peach">
+        <i class="bi bi-stars"></i>
+        <span>Featured Case Studies</span>
+      </div>
+      <h1 class="subpage-title">
+        Projects That Speak <span class="text-orange">for Themselves</span>
+      </h1>
+      <p class="subpage-lead">
+        Browse our selected portfolio of client partnerships across web engineering, search optimization, paid media funnels, and brand transformations.
+      </p>
+      <div class="mt-3">
+        <span class="demo-mode-badge"><i class="bi bi-info-circle"></i> Showcase sample case studies during development</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Portfolio Section -->
+  <main class="py-5">
+    <div class="container py-4">
+      
+      <!-- Category Filters (Pills) -->
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-5">
+        <div class="portfolio-filters" role="group" aria-label="Portfolio Filters">
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="web-design">Web Design</button>
+          <button type="button" class="filter-btn" data-filter="ecommerce">E-commerce</button>
+          <button type="button" class="filter-btn" data-filter="seo">SEO</button>
+          <button type="button" class="filter-btn" data-filter="social">Social Media</button>
+          <button type="button" class="filter-btn" data-filter="ppc">Paid Advertising</button>
+          <button type="button" class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+
+        <span class="text-muted small"><i class="bi bi-funnel"></i> Instant Category Filter</span>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="row g-4" id="portfolioGrid">
+        
+        <!-- Project 1: Web Design -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="web-design">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_1.jpg" alt="NovaPay Web Platform Redesign" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Web Design</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> +215% Conversion</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">Fintech &amp; Banking</span>
+                <small class="text-muted">Web Design</small>
+              </div>
+              <h3 class="project-title">NovaPay Platform Redesign</h3>
+              <p class="project-excerpt">
+                A high-converting web architecture, interactive onboarding flow, and custom component system for modern financial services.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">UI/UX Design</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Frontend Code</small>
+                <small class="badge bg-cream text-navy border border-peach">Speed Optimization</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: SEO -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="seo">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_2.jpg" alt="Apex Cloud Enterprise SEO" class="project-img" loading="lazy">
+              <span class="project-tag-pill">SEO</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> +340% Organic</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">B2B Cloud SaaS</span>
+                <small class="text-muted">SEO</small>
+              </div>
+              <h3 class="project-title">Apex Cloud Organic Dominance</h3>
+              <p class="project-excerpt">
+                Strategic topic clustering, core web vitals speed optimization, and authoritative backlink acquisition for B2B cloud infrastructure.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Technical SEO</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Content Strategy</small>
+                <small class="badge bg-cream text-navy border border-peach">Keyword Mapping</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Social Media & Branding -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="social branding">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_3.jpg" alt="GlowSkin Viral Social Campaign" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Social Media</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> 4.8M Impressions</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">Beauty &amp; DTC</span>
+                <small class="text-muted">Social &amp; Brand</small>
+              </div>
+              <h3 class="project-title">GlowSkin Omnichannel Launch</h3>
+              <p class="project-excerpt">
+                Creator collaborations, viral short-form video creative, and community building that generated record-breaking direct sales.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Social Strategy</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Creative Reels</small>
+                <small class="badge bg-cream text-navy border border-peach">Brand Kit</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Paid Advertising & E-commerce -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="ppc ecommerce">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_4.jpg" alt="UrbanStride E-Commerce Scaling" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Paid Advertising</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> 5.4x ROAS</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">Footwear &amp; Retail</span>
+                <small class="text-muted">Paid PPC &amp; Store</small>
+              </div>
+              <h3 class="project-title">UrbanStride Multi-Funnel Ads</h3>
+              <p class="project-excerpt">
+                Full-funnel Google Performance Max and Meta dynamic ad strategies driving massive customer acquisition at low CAC.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Google Ads</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Meta Ads</small>
+                <small class="badge bg-cream text-navy border border-peach">Store CRO</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Web Design & E-commerce -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="web-design ecommerce">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_5.jpg" alt="Lumina Health Telehealth Portal" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Web Design</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> +180% Bookings</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">Healthcare &amp; MedTech</span>
+                <small class="text-muted">Web Design</small>
+              </div>
+              <h3 class="project-title">Lumina Health Digital Portal</h3>
+              <p class="project-excerpt">
+                Patient-centric healthcare design featuring streamlined appointment scheduling, HIPAA compliance, and responsive mobile UX.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Web Portal</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Custom Forms</small>
+                <small class="badge bg-cream text-navy border border-peach">Mobile UX</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: SEO & Branding -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="seo branding">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_6.jpg" alt="PeakFlow Enterprise Content & Search" class="project-img" loading="lazy">
+              <span class="project-tag-pill">SEO</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> #1 Rank (45+ Terms)</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">Logistics &amp; Supply</span>
+                <small class="text-muted">SEO &amp; Brand</small>
+              </div>
+              <h3 class="project-title">PeakFlow Enterprise Inbound</h3>
+              <p class="project-excerpt">
+                High-intent commercial keyword domination through comprehensive technical architecture and data-backed editorial guidelines.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Enterprise SEO</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Content Hub</small>
+                <small class="badge bg-cream text-navy border border-peach">Brand Voice</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7: E-commerce & Web Design -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="ecommerce web-design">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_3.jpg" alt="Velox Athletics Store" class="project-img" loading="lazy">
+              <span class="project-tag-pill">E-commerce</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> +68% AOV Lift</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">Sportswear DTC</span>
+                <small class="text-muted">E-commerce</small>
+              </div>
+              <h3 class="project-title">Velox Athletics Modern Store</h3>
+              <p class="project-excerpt">
+                Sub-second page speeds, integrated bundle upselling, and instant checkout flows resulting in dramatic average order value growth.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Store Redesign</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Checkout CRO</small>
+                <small class="badge bg-cream text-navy border border-peach">Mobile Speed</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8: PPC & Social Media -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="ppc social">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_2.jpg" alt="Aura Wellness Social & Search Ads" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Paid Advertising</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> 4.2x Blended ROAS</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">Wellness &amp; Health</span>
+                <small class="text-muted">PPC &amp; Social</small>
+              </div>
+              <h3 class="project-title">Aura Wellness Retargeting Engine</h3>
+              <p class="project-excerpt">
+                Omnichannel acquisition synchronizing Meta awareness creatives with high-intent Google Search capture for premium subscribers.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Meta Ads</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Google Search</small>
+                <small class="badge bg-cream text-navy border border-peach">Lead Retargeting</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 9: Branding -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="branding web-design">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_1.jpg" alt="Strata Capital Identity System" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Branding</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> Rebrand Success</span>
+            </div>
+            <div class="project-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="text-orange small fw-bold">Private Equity</span>
+                <small class="text-muted">Branding</small>
+              </div>
+              <h3 class="project-title">Strata Capital Brand Identity</h3>
+              <p class="project-excerpt">
+                Sophisticated typography, vector emblem suite, and digital presentation design reflecting premium market positioning and institutional trust.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Brand Identity</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Vector Logo</small>
+                <small class="badge bg-cream text-navy border border-peach">Style Guidelines</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Empty State for Filter -->
+      <div id="portfolioEmpty" class="text-center py-5 d-none">
+        <i class="bi bi-folder-x fs-1 text-muted"></i>
+        <h4 class="fs-5 fw-bold text-navy mt-3">No matching projects found</h4>
+        <p class="text-muted small">Try selecting a different category filter or view all work.</p>
+      </div>
+
+      <!-- Start a Project CTA -->
+      <div class="service-cta-card mt-5">
+        <div class="row align-items-center justify-content-between g-4">
+          <div class="col-lg-8">
+            <h3 class="fs-2 fw-bold mb-2">Want Results Like These for Your Business?</h3>
+            <p class="mb-0 fs-6">Let's discuss your growth targets, timeline, and how BrightMark can tailor a proven marketing playbook for your team.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="btn-orange">
+              Start Your Project <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="BrightMark Logo">
+              <circle cx="8" cy="26" r="4.5" fill="#FF650F" />
+              <circle cx="18" cy="22" r="3.5" fill="#FF7A1A" />
+              <path d="M7 26L14 15L22 21L29 7" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M22 7H29V14" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="footer-brand-title">BrightMark</span>
+          </div>
+          <p class="footer-desc">
+            BrightMark is a digital marketing agency focused on helping businesses improve their online presence through creative, data-informed marketing strategies.
+          </p>
+        </div>
+
+        <div class="col-lg-2 col-6">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="projects.html">Projects Worked</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-6">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="services/web-design.html">Web Design &amp; Dev</a></li>
+            <li><a href="services/ecommerce.html">E-commerce Solutions</a></li>
+            <li><a href="services/seo.html">Search Engine Optimization</a></li>
+            <li><a href="services/social-media.html">Social Media Marketing</a></li>
+            <li><a href="services/google-ads.html">Google Ads &amp; PPC</a></li>
+            <li><a href="services/content-marketing.html">Content Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-col-title">Newsletter</h4>
+          <p class="small text-muted mb-2">Subscribe for actionable marketing insights and agency updates.</p>
+          <form class="newsletter-form-wrap">
+            <input type="email" class="newsletter-input" placeholder="Enter your email" required aria-label="Work Email">
+            <button type="submit" class="btn-orange py-2 px-3 fs-6" aria-label="Subscribe">
+              <i class="bi bi-send-fill"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div>
+          &copy; <span class="current-year">2026</span> BrightMark Digital Marketing Agency. All rights reserved.
+        </div>
+        <div class="d-flex gap-3 text-muted">
+          <a href="privacy.html" class="text-muted text-decoration-none">Privacy Policy</a>
+          <span>&bull;</span>
+          <a href="terms.html" class="text-muted text-decoration-none">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" id="btn-back-to-top" aria-label="Back to top">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

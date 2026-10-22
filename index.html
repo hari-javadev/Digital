@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightMark - Digital Marketing Agency | Turn Attention Into Growth</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="BrightMark is a premium digital marketing agency specializing in Web Design, E-commerce, SEO, PPC, Social Media, and Content Marketing to drive measurable business growth.">
+  <meta name="theme-color" content="#FF650F">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="BrightMark - Digital Marketing Agency">
+  <meta property="og:description" content="We Turn Digital Attention Into Real Growth with data-informed creative strategies.">
+  <meta property="og:type" content="website">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+  <!-- Decorative Corner & Edge Elements -->
+  <img src="images/decor_top_left.png" alt="" class="decor-top-left" aria-hidden="true">
+  <img src="images/decor_left_blob.png" alt="" class="decor-left-blob" aria-hidden="true">
+  <img src="images/decor_dots.png" alt="" class="decor-dots-right" aria-hidden="true">
+
+  <!-- =========================================================================
+       Navbar — Exact Order: 1. Home, 2. Our Services, 3. Projects Worked, 4. Blog, 5. Contact Us
+       ========================================================================= -->
+  <nav class="navbar navbar-expand-lg site-navbar sticky-top">
+    <div class="container">
+      <!-- Brand Logo -->
+      <a class="navbar-brand-wrapper" href="index.html">
+        <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="BrightMark Logo">
+          <circle cx="8" cy="26" r="4.5" fill="#FF650F" />
+          <circle cx="18" cy="22" r="3.5" fill="#FF7A1A" />
+          <path d="M7 26L14 15L22 21L29 7" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M22 7H29V14" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="brand-text-block">
+          <span class="brand-name">BrightMark</span>
+          <span class="brand-sub">Digital Marketing Agency</span>
+        </div>
+      </a>
+
+      <!-- Mobile Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+          <!-- 1. Home -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom active" href="index.html">Home</a>
+          </li>
+
+          <!-- 2. Our Services (Dropdown) -->
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-link-custom dropdown-toggle" href="services.html" id="navbarServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu dropdown-menu-custom shadow-lg" aria-labelledby="navbarServicesDropdown">
+              <li><a class="dropdown-item" href="services/web-design.html"><i class="bi bi-laptop"></i> Web Design &amp; Development</a></li>
+              <li><a class="dropdown-item" href="services/ecommerce.html"><i class="bi bi-cart3"></i> E-commerce Development</a></li>
+              <li><a class="dropdown-item" href="services/seo.html"><i class="bi bi-search"></i> Search Engine Optimization (SEO)</a></li>
+              <li><a class="dropdown-item" href="services/social-media.html"><i class="bi bi-megaphone"></i> Social Media Marketing</a></li>
+              <li><a class="dropdown-item" href="services/google-ads.html"><i class="bi bi-cursor"></i> Google Ads &amp; PPC</a></li>
+              <li><a class="dropdown-item" href="services/content-marketing.html"><i class="bi bi-file-earmark-text"></i> Content Marketing</a></li>
+              <li><a class="dropdown-item" href="services/branding.html"><i class="bi bi-palette"></i> Branding &amp; Graphic Design</a></li>
+              <li><a class="dropdown-item" href="services/email-marketing.html"><i class="bi bi-envelope-paper"></i> Email Marketing</a></li>
+              <li><a class="dropdown-item" href="services/website-redesign.html"><i class="bi bi-arrow-repeat"></i> Website Redesign</a></li>
+              <li><a class="dropdown-item" href="services/local-marketing.html"><i class="bi bi-geo-alt"></i> Local SEO &amp; Marketing</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item fw-bold text-orange" href="services.html"><i class="bi bi-grid-fill"></i> View All Services &rarr;</a></li>
+            </ul>
+          </li>
+
+          <!-- 3. Projects Worked -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="projects.html">Projects Worked</a>
+          </li>
+
+          <!-- 4. Blog -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="blog.html">Blog</a>
+          </li>
+
+          <!-- 5. Contact Us -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+
+        <!-- Right Action Button -->
+        <div class="d-none d-lg-block">
+          <a href="contact.html" class="btn-orange navbar-btn-talk">
+            Let's Talk <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================================
+       Hero Section — Preserved Exact BrightMark Layout & Visuals
+       ========================================================================= -->
+  <header class="hero-section">
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <!-- Hero Left Column: Copy & Actions -->
+        <div class="col-lg-6 col-12 mb-5 mb-lg-0 z-2">
+          <!-- Peach Badge -->
+          <div class="badge-pill-peach">
+            <i class="bi bi-star-fill"></i>
+            <span>Grow Your Brand Online</span>
+          </div>
+
+          <!-- Hero Heading -->
+          <h1 class="hero-heading">
+            We Turn Digital<br>
+            <span class="text-orange">Attention Into</span><br>
+            Real Growth<span class="text-orange">.</span>
+          </h1>
+
+          <!-- Hero Paragraph -->
+          <p class="hero-lead">
+            We help businesses get noticed, build their brand and achieve measurable results through smart digital marketing strategies.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="contact.html" class="btn-orange">
+              Start a Project <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="projects.html" class="btn-outline-orange">
+              Explore Our Work <i class="bi bi-play-fill text-orange"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Exact Visual Composition -->
+        <div class="col-lg-6 col-12">
+          <div class="hero-visual-container">
+            <!-- Warm Orange Ambient Backdrop Glow -->
+            <div class="hero-backdrop-glow"></div>
+
+            <!-- Base Marketing Illustration (exact composition) -->
+            <img src="images/hero_illustration.png" alt="BrightMark Digital Marketing Strategy" class="hero-illustration-img">
+
+            <!-- Floating Card 1: Marketing Traffic & Sales -->
+            <div class="hero-card-traffic">
+              <div class="traffic-card-header">
+                <span class="traffic-card-title">More Traffic<br>More Sales</span>
+                <span class="badge bg-success-subtle text-success small px-1 py-0 rounded">+128%</span>
+              </div>
+              <svg class="traffic-chart-svg" viewBox="0 0 140 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 38L25 32L50 35L75 22L100 25L138 6" stroke="#FF650F" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M2 38L25 32L50 35L75 22L100 25L138 6V48H2V38Z" fill="url(#heroGrad)" opacity="0.18"/>
+                <defs>
+                  <linearGradient id="heroGrad" x1="70" y1="6" x2="70" y2="48" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF650F"/>
+                    <stop offset="1" stop-color="#FF650F" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+
+            <!-- Floating Card 2: Brand Visibility -->
+            <div class="hero-card-visibility">
+              <div class="visibility-icon-box">
+                <i class="bi bi-eye-fill"></i>
+              </div>
+              <div class="visibility-text-block">
+                <span class="visibility-label">Brand Visibility</span>
+                <span class="visibility-value">+250%</span>
+              </div>
+            </div>
+
+            <!-- Floating Card 3: SEO Pill Badge -->
+            <div class="hero-card-seo">
+              <i class="bi bi-search"></i>
+              <span>SEO #1 Rank</span>
+            </div>
+
+            <!-- Floating Stack 4: Social Media Icons -->
+            <div class="hero-social-stack">
+              <a href="#" class="hero-social-link instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="hero-social-link facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="hero-social-link linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="hero-social-link x-twitter" aria-label="X Twitter"><i class="bi bi-twitter-x"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       Section: Statistics Strip
+       ========================================================================= -->
+  <section class="stats-strip-wrapper">
+    <div class="container">
+      <div class="stats-card-container">
+        <div class="row g-3 align-items-center">
+          
+          <!-- Stat 1 -->
+          <div class="col-lg-3 col-sm-6 stat-divider">
+            <div class="stat-item">
+              <div class="stat-icon-circle">
+                <i class="bi bi-rocket-takeoff-fill"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-number" data-target="120" data-suffix="+">120+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="col-lg-3 col-sm-6 stat-divider">
+            <div class="stat-item">
+              <div class="stat-icon-circle">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-number" data-target="80" data-suffix="+">80+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="col-lg-3 col-sm-6 stat-divider">
+            <div class="stat-item">
+              <div class="stat-icon-circle">
+                <i class="bi bi-bar-chart-fill"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-number" data-target="150" data-suffix="+">150+</span>
+                <span class="stat-label">Campaigns Managed</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="stat-item">
+              <div class="stat-icon-circle">
+                <i class="bi bi-star"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-number" data-target="95" data-suffix="%">95%</span>
+                <span class="stat-label">Client Satisfaction</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Client Logos & Trust Showcase
+       ========================================================================= -->
+  <section class="trust-section" aria-label="Client Partners">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
+        <span class="trust-title mb-0">Trusted by Forward-Thinking Brands &amp; Growing Businesses</span>
+        <button type="button" class="trust-pause-btn" id="trust-pause-btn" aria-label="Pause motion" aria-pressed="false">
+          <i class="bi bi-pause-fill"></i> Pause Motion
+        </button>
+      </div>
+
+      <div class="trust-logos-row" id="trust-logos-wrap">
+        <div class="trust-logo-item">
+          <i class="bi bi-shield-check trust-logo-icon"></i>
+          <span>NovaPay</span>
+        </div>
+        <div class="trust-logo-item">
+          <i class="bi bi-cloud-arrow-up trust-logo-icon"></i>
+          <span>ApexCloud</span>
+        </div>
+        <div class="trust-logo-item">
+          <i class="bi bi-flower1 trust-logo-icon"></i>
+          <span>GlowSkin</span>
+        </div>
+        <div class="trust-logo-item">
+          <i class="bi bi-lightning-charge trust-logo-icon"></i>
+          <span>UrbanStride</span>
+        </div>
+        <div class="trust-logo-item">
+          <i class="bi bi-heart-pulse trust-logo-icon"></i>
+          <span>LuminaHealth</span>
+        </div>
+        <div class="trust-logo-item">
+          <i class="bi bi-gem trust-logo-icon"></i>
+          <span>CrestScale</span>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <small class="text-muted" style="font-size: 0.72rem;">*Illustrative showcase partner representations</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Our Services (10 Services)
+       ========================================================================= -->
+  <section class="services-section" id="services">
+    <img src="images/decor_leaf.png" alt="" class="decor-leaf-right" aria-hidden="true">
+
+    <div class="container position-relative">
+      <!-- Section Header -->
+      <div class="section-title-wrap">
+        <div class="badge-pill-peach">
+          <span>Our Services</span>
+        </div>
+        <h2 class="section-heading">
+          What We <span class="text-orange">Do Best</span>
+        </h2>
+        <p class="section-desc">
+          Digital solutions designed to help your business grow, reach the right audience, and build a stronger online presence.
+        </p>
+      </div>
+
+      <!-- 10 Services Grid (Responsive Bootstrap Grid) -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+        
+        <!-- 1. Web Design & Development -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <h3 class="service-title">Web Design &amp; Development</h3>
+            <p class="service-text">
+              Responsive business websites, high-converting landing pages, custom code, and seamless UX/UI.
+            </p>
+            <a href="services/web-design.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. E-commerce Development -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-cart3"></i>
+            </div>
+            <h3 class="service-title">E-commerce Development</h3>
+            <p class="service-text">
+              Turnkey online store design, frictionless checkout integration, catalog optimization, and sales funnels.
+            </p>
+            <a href="services/ecommerce.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Search Engine Optimization (SEO) -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-search"></i>
+            </div>
+            <h3 class="service-title">Search Engine Optimization</h3>
+            <p class="service-text">
+              Technical audits, on-page optimization, authoritative link strategies, and organic visibility rankings.
+            </p>
+            <a href="services/seo.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Social Media Marketing -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-megaphone"></i>
+            </div>
+            <h3 class="service-title">Social Media Marketing</h3>
+            <p class="service-text">
+              Channel growth strategy, editorial calendars, creative reels and posts, and community engagement.
+            </p>
+            <a href="services/social-media.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Google Ads & PPC -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-cursor"></i>
+            </div>
+            <h3 class="service-title">Google Ads &amp; PPC</h3>
+            <p class="service-text">
+              Targeted search advertising, display funnels, continuous bid optimization, and conversion tracking.
+            </p>
+            <a href="services/google-ads.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Content Marketing -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-file-earmark-text"></i>
+            </div>
+            <h3 class="service-title">Content Marketing</h3>
+            <p class="service-text">
+              High-value blog articles, brand storytelling, conversion copywriting, and content distribution plans.
+            </p>
+            <a href="services/content-marketing.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 7. Branding & Graphic Design -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-palette"></i>
+            </div>
+            <h3 class="service-title">Branding &amp; Graphic Design</h3>
+            <p class="service-text">
+              Comprehensive brand identities, logos, typography, visual design guidelines, and marketing collateral.
+            </p>
+            <a href="services/branding.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 8. Email Marketing -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-envelope-paper"></i>
+            </div>
+            <h3 class="service-title">Email Marketing</h3>
+            <p class="service-text">
+              Automated nurture flows, custom newsletter layouts, audience segmentation, and open-rate lift.
+            </p>
+            <a href="services/email-marketing.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 9. Website Redesign -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-arrow-repeat"></i>
+            </div>
+            <h3 class="service-title">Website Redesign</h3>
+            <p class="service-text">
+              Transform legacy sites with modern responsive interfaces, faster load speeds, and improved conversions.
+            </p>
+            <a href="services/website-redesign.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 10. Local SEO & Marketing -->
+        <div class="col">
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <h3 class="service-title">Local SEO &amp; Marketing</h3>
+            <p class="service-text">
+              Google Business Profile optimization, local directory citations, geo-targeted search, and local intent.
+            </p>
+            <a href="services/local-marketing.html" class="service-link">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- All Services CTA Button -->
+      <div class="text-center mt-5">
+        <a href="services.html" class="btn-orange">
+          Explore All Services in Detail <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Why Choose BrightMark?
+       ========================================================================= -->
+  <section class="why-choose-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Left: Text & 6 Value Points -->
+        <div class="col-lg-6 col-12">
+          <div class="badge-pill-peach">
+            <span>The BrightMark Advantage</span>
+          </div>
+          <h2 class="section-heading">
+            Why Choose <span class="text-orange">BrightMark?</span>
+          </h2>
+          <p class="section-desc mb-4">
+            We operate as an extension of your growth team, uniting creative craftsmanship with disciplined performance metrics.
+          </p>
+
+          <div class="row g-3">
+            <!-- Point 1 -->
+            <div class="col-sm-6">
+              <div class="why-card">
+                <div class="why-icon-box">
+                  <i class="bi bi-bullseye"></i>
+                </div>
+                <div>
+                  <h4 class="why-card-title">Goal-Driven Strategy</h4>
+                  <p class="why-card-desc">Every roadmap is architected strictly around your business objectives.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Point 2 -->
+            <div class="col-sm-6">
+              <div class="why-card">
+                <div class="why-icon-box">
+                  <i class="bi bi-brush"></i>
+                </div>
+                <div>
+                  <h4 class="why-card-title">User-Focused Design</h4>
+                  <p class="why-card-desc">Creative layouts engineered for clarity, engagement, and conversion.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Point 3 -->
+            <div class="col-sm-6">
+              <div class="why-card">
+                <div class="why-icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                </div>
+                <div>
+                  <h4 class="why-card-title">Data-Informed Decisions</h4>
+                  <p class="why-card-desc">Continuous experimentation guided by real analytics, not guesswork.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Point 4 -->
+            <div class="col-sm-6">
+              <div class="why-card">
+                <div class="why-icon-box">
+                  <i class="bi bi-chat-heart"></i>
+                </div>
+                <div>
+                  <h4 class="why-card-title">Transparent Comms</h4>
+                  <p class="why-card-desc">Honest reporting, clear weekly updates, and collaborative execution.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Point 5 -->
+            <div class="col-sm-6">
+              <div class="why-card">
+                <div class="why-icon-box">
+                  <i class="bi bi-sliders"></i>
+                </div>
+                <div>
+                  <h4 class="why-card-title">Customized Solutions</h4>
+                  <p class="why-card-desc">Tailored service packages designed for your budget and growth stage.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Point 6 -->
+            <div class="col-sm-6">
+              <div class="why-card">
+                <div class="why-icon-box">
+                  <i class="bi bi-shield-check"></i>
+                </div>
+                <div>
+                  <h4 class="why-card-title">Ongoing Support</h4>
+                  <p class="why-card-desc">Proactive maintenance and post-launch refinement to sustain traction.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Professional Visual Composition -->
+        <div class="col-lg-6 col-12">
+          <div class="why-visual-card">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+              <div class="d-flex align-items-center gap-3">
+                <div class="stat-icon-circle bg-cream">
+                  <i class="bi bi-check-circle-fill text-orange fs-4"></i>
+                </div>
+                <div>
+                  <h3 class="fs-5 fw-bold text-navy mb-0">Outcome-Obsessed Partner</h3>
+                  <small class="text-muted">Built for sustainable business scale</small>
+                </div>
+              </div>
+              <span class="badge-pill-peach mb-0">Strategy First</span>
+            </div>
+
+            <p class="text-muted mb-4">
+              Rather than selling isolated tactics, we assemble an integrated digital engine where design, SEO, and paid channels reinforce each other.
+            </p>
+
+            <img src="images/about_team.jpg" alt="BrightMark Growth Team Collaboration" class="img-fluid rounded-4 mb-3 w-100 shadow-sm" style="max-height: 250px; object-fit: cover;">
+
+            <div class="why-metric-badge d-flex justify-content-between align-items-center">
+              <div>
+                <span class="fs-6 fw-bold text-navy d-block">Ready to explore possibilities?</span>
+                <span class="small text-muted">Receive a tailored digital assessment for your brand</span>
+              </div>
+              <a href="contact.html" class="btn-orange py-2 px-3 fs-6">
+                Consult With Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: About BrightMark
+       ========================================================================= -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- About Left Column -->
+        <div class="col-lg-6 col-12">
+          <div class="about-img-box">
+            <img src="images/woman_desk.png" alt="BrightMark Marketing Strategist" class="about-main-img img-fluid rounded-4">
+            <div class="about-experience-badge">
+              <div class="about-badge-icon">
+                <i class="bi bi-stars"></i>
+              </div>
+              <div>
+                <h4 class="mb-0 fw-bold fs-6 text-navy">Dedicated Growth Squad</h4>
+                <p class="mb-0 text-muted small">Collaborative Client Partnership</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About Right Column -->
+        <div class="col-lg-6 col-12">
+          <div class="badge-pill-peach">
+            <span>About BrightMark</span>
+          </div>
+          <h2 class="section-heading">
+            Helping Businesses Build a <span class="text-orange">Stronger Digital Presence</span>
+          </h2>
+          <p class="section-desc">
+            BrightMark is a digital marketing agency created to bridge creative visual storytelling with disciplined analytical execution. We partner with ambitious organizations looking to transform online attention into verified revenue.
+          </p>
+
+          <!-- Mission, Vision & Core Values -->
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="p-3 bg-white rounded-3 border border-peach">
+                <h3 class="fs-6 fw-bold text-navy mb-1"><i class="bi bi-compass text-orange me-2"></i>Our Mission</h3>
+                <p class="small text-muted mb-0">Empower businesses with modern digital strategies that drive measurable, predictable growth.</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="p-3 bg-white rounded-3 border border-peach">
+                <h3 class="fs-6 fw-bold text-navy mb-1"><i class="bi bi-eye text-orange me-2"></i>Our Vision</h3>
+                <p class="small text-muted mb-0">To be the most trusted, outcome-focused digital agency known for integrity and creative excellence.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Approach Highlights -->
+          <ul class="about-features-list">
+            <li class="about-feature-item">
+              <i class="bi bi-check2"></i>
+              <span>Data-backed campaigns tailored strictly to your business KPIs</span>
+            </li>
+            <li class="about-feature-item">
+              <i class="bi bi-check2"></i>
+              <span>Live transparent reporting with clear conversion tracking</span>
+            </li>
+            <li class="about-feature-item">
+              <i class="bi bi-check2"></i>
+              <span>Multi-disciplinary team of copywriters, designers, and ad strategists</span>
+            </li>
+          </ul>
+
+          <div class="mt-4">
+            <a href="about.html" class="btn-orange me-3">
+              Learn More About Us <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="contact.html" class="btn-outline-orange">
+              Discuss a Project
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Our Working Process (5 Steps)
+       ========================================================================= -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="badge-pill-peach">
+          <span>How We Work</span>
+        </div>
+        <h2 class="section-heading">
+          How We Bring Your <span class="text-orange">Ideas to Life</span>
+        </h2>
+        <p class="section-desc">
+          A structured 5-step process designed to eliminate guesswork and systematically scale your brand.
+        </p>
+      </div>
+
+      <div class="process-timeline-wrapper">
+        <div class="process-timeline-bar d-none d-lg-block"></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 g-4">
+          
+          <!-- Step 1 -->
+          <div class="col process-step-item">
+            <div class="process-step-circle">
+              <span class="process-step-num">01</span>
+              <i class="bi bi-compass process-step-icon"></i>
+            </div>
+            <h3 class="process-step-title">Understanding Your Goals</h3>
+            <p class="process-step-desc">
+              We understand your business model, target audience, and primary growth objectives.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="col process-step-item">
+            <div class="process-step-circle">
+              <span class="process-step-num">02</span>
+              <i class="bi bi-search-heart process-step-icon"></i>
+            </div>
+            <h3 class="process-step-title">Research &amp; Strategy</h3>
+            <p class="process-step-desc">
+              We identify market opportunities, analyze competitors, and plan the approach.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="col process-step-item">
+            <div class="process-step-circle">
+              <span class="process-step-num">03</span>
+              <i class="bi bi-code-slash process-step-icon"></i>
+            </div>
+            <h3 class="process-step-title">Design &amp; Development</h3>
+            <p class="process-step-desc">
+              Our specialists create, implement, and test the digital solution.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="col process-step-item">
+            <div class="process-step-circle">
+              <span class="process-step-num">04</span>
+              <i class="bi bi-chat-square-text process-step-icon"></i>
+            </div>
+            <h3 class="process-step-title">Review &amp; Feedback</h3>
+            <p class="process-step-desc">
+              We review the deliverables together and incorporate agreed feedback.
+            </p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="col process-step-item">
+            <div class="process-step-circle">
+              <span class="process-step-num">05</span>
+              <i class="bi bi-rocket-takeoff process-step-icon"></i>
+            </div>
+            <h3 class="process-step-title">Launch &amp; Support</h3>
+            <p class="process-step-desc">
+              We launch the approved project and provide agreed ongoing support.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Projects Worked / Portfolio Preview
+       ========================================================================= -->
+  <section class="projects-section" id="our-work">
+    <div class="container">
+      <!-- Section Header with Category Filters -->
+      <div class="projects-header-row">
+        <div>
+          <div class="badge-pill-peach">
+            <span>Our Work</span>
+          </div>
+          <h2 class="section-heading mb-0">
+            Projects That Speak <span class="text-orange">for Themselves</span>
+          </h2>
+        </div>
+
+        <!-- Filter Buttons (Pill shaped) -->
+        <div class="portfolio-filters" role="group" aria-label="Portfolio Category Filters">
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="web-design">Web Design</button>
+          <button type="button" class="filter-btn" data-filter="ecommerce">E-commerce</button>
+          <button type="button" class="filter-btn" data-filter="seo">SEO</button>
+          <button type="button" class="filter-btn" data-filter="social">Social Media</button>
+          <button type="button" class="filter-btn" data-filter="ppc">Paid Advertising</button>
+          <button type="button" class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="row g-4" id="portfolioGrid">
+        <!-- Project 1: Web Design -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="web-design">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_1.jpg" alt="NovaPay Web Platform Redesign" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Web Design</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> +215% Conversion</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">NovaPay Fintech Redesign</h3>
+              <p class="project-excerpt">
+                A high-converting web architecture, interactive onboarding flow, and custom component system for modern financial services.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">UI/UX Design</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Frontend Code</small>
+                <small class="badge bg-cream text-navy border border-peach">Speed Optimization</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: SEO -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="seo">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_2.jpg" alt="Apex Cloud Enterprise SEO Engine" class="project-img" loading="lazy">
+              <span class="project-tag-pill">SEO</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> +340% Organic Traffic</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Apex Cloud Organic Dominance</h3>
+              <p class="project-excerpt">
+                Strategic topic clustering, core web vitals speed optimization, and authoritative backlink acquisition for B2B cloud infrastructure.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Technical SEO</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Content Strategy</small>
+                <small class="badge bg-cream text-navy border border-peach">Keyword Mapping</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Social Media & Branding -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="social branding">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_3.jpg" alt="GlowSkin Viral Social Campaign" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Social Media</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> 4.8M Impressions</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">GlowSkin Omnichannel Launch</h3>
+              <p class="project-excerpt">
+                Creator collaborations, viral short-form video creative, and community building that generated record-breaking direct sales.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Social Strategy</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Creative Reels</small>
+                <small class="badge bg-cream text-navy border border-peach">Brand Kit</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Paid Advertising & E-commerce -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="ppc ecommerce">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_4.jpg" alt="UrbanStride E-Commerce Scaling" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Paid Advertising</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> 5.4x ROAS</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">UrbanStride Multi-Funnel Ads</h3>
+              <p class="project-excerpt">
+                Full-funnel Google Performance Max and Meta dynamic ad strategies driving massive customer acquisition at low CAC.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Google Ads</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Meta Ads</small>
+                <small class="badge bg-cream text-navy border border-peach">Store CRO</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Web Design & E-commerce -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="web-design ecommerce">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_5.jpg" alt="Lumina Health Telehealth Portal" class="project-img" loading="lazy">
+              <span class="project-tag-pill">Web Design</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> +180% Bookings</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Lumina Health Digital Portal</h3>
+              <p class="project-excerpt">
+                Patient-centric healthcare design featuring streamlined appointment scheduling, HIPAA compliance, and responsive mobile UX.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Web Portal</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Custom Forms</small>
+                <small class="badge bg-cream text-navy border border-peach">Mobile UX</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: SEO & Content -->
+        <div class="col-lg-4 col-md-6 portfolio-item" data-category="seo branding">
+          <div class="project-card">
+            <div class="project-thumb-wrap">
+              <img src="images/project_6.jpg" alt="PeakFlow Enterprise Content & Search" class="project-img" loading="lazy">
+              <span class="project-tag-pill">SEO</span>
+              <span class="project-metric-pill"><i class="bi bi-arrow-up-right"></i> #1 Rank (45+ Terms)</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">PeakFlow Enterprise Inbound</h3>
+              <p class="project-excerpt">
+                High-intent commercial keyword domination through comprehensive technical architecture and data-backed editorial guidelines.
+              </p>
+              <div class="mb-3">
+                <small class="badge bg-cream text-navy border border-peach me-1">Enterprise SEO</small>
+                <small class="badge bg-cream text-navy border border-peach me-1">Content Hub</small>
+                <small class="badge bg-cream text-navy border border-peach">Brand Voice</small>
+              </div>
+              <a href="projects/sample-project.html" class="project-footer-link">
+                View Concept Case Study <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="projects.html" class="btn-orange">
+          View All Projects &amp; Case Studies <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Testimonials Carousel
+       ========================================================================= -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="badge-pill-peach">
+          <span>Client Feedback</span>
+        </div>
+        <h2 class="section-heading">
+          Feedback from Our <span class="text-orange">Valued Partners</span>
+        </h2>
+        <p class="section-desc">
+          Hear how our collaborative approach helps brands scale with clarity and measurable returns.
+        </p>
+      </div>
+
+      <!-- Testimonial Carousel -->
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="testimonial-card text-center p-4 p-md-5">
+                  <div class="testimonial-stars justify-content-center d-flex gap-1 mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <p class="testimonial-quote fs-5 mb-4">
+                    "BrightMark completely transformed our inbound pipeline. In just four months after the website redesign and technical SEO execution, our qualified demo requests increased significantly."
+                  </p>
+                  <div class="testimonial-client justify-content-center">
+                    <img src="images/avatar_2.jpg" alt="Marcus Vance" class="client-avatar">
+                    <div class="client-info text-start">
+                      <h6>Marcus Vance</h6>
+                      <span>CEO, NovaPay Technologies</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="testimonial-card text-center p-4 p-md-5">
+                  <div class="testimonial-stars justify-content-center d-flex gap-1 mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <p class="testimonial-quote fs-5 mb-4">
+                    "Their paid ads strategy and creative agility made them feel like a natural extension of our team. Transparent weekly communication and data-backed decisions made all the difference."
+                  </p>
+                  <div class="testimonial-client justify-content-center">
+                    <img src="images/avatar_1.jpg" alt="Sarah Jenkins" class="client-avatar">
+                    <div class="client-info text-start">
+                      <h6>Sarah Jenkins</h6>
+                      <span>Marketing Director, GlowSkin Beauty</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="testimonial-card text-center p-4 p-md-5">
+                  <div class="testimonial-stars justify-content-center d-flex gap-1 mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <p class="testimonial-quote fs-5 mb-4">
+                    "The organic search roadmap uncovered opportunities our previous agency missed. We now rank at the top for our most critical enterprise search terms."
+                  </p>
+                  <div class="testimonial-client justify-content-center">
+                    <img src="images/avatar_3.jpg" alt="David Miller" class="client-avatar">
+                    <div class="client-info text-start">
+                      <h6>David Miller</h6>
+                      <span>Growth Director, Apex Cloud</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Carousel Navigation Controls & Indicators -->
+        <div class="testimonial-carousel-controls">
+          <button class="carousel-control-btn" id="testimonialPrev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Previous Testimonial">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+          
+          <div class="carousel-indicators carousel-indicators-custom">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
+          </div>
+
+          <button class="carousel-control-btn" id="testimonialNext" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Next Testimonial">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="text-center mt-3">
+          <small class="text-muted" style="font-size: 0.72rem;">*Representative demo testimonials during website development</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Pricing & Packages
+       ========================================================================= -->
+  <section class="pricing-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="badge-pill-peach">
+          <span>Configurable Packages</span>
+        </div>
+        <h2 class="section-heading">
+          Packages That <span class="text-orange">Scale With You</span>
+        </h2>
+        <p class="section-desc">
+          Tailored engagements designed to fit your current stage of growth. All packages can be customized.
+        </p>
+        <span class="demo-mode-badge mt-2">
+          <i class="bi bi-info-circle"></i> Pricing &amp; inclusions are configurable placeholders
+        </span>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <!-- Starter Tier -->
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-card">
+            <h3 class="pricing-tier-name">Starter</h3>
+            <p class="pricing-tier-desc">Ideal for emerging businesses building their initial digital footprint.</p>
+            <div class="pricing-amount-wrap">
+              <span class="pricing-currency">$</span>
+              <span class="pricing-number">1,499</span>
+              <span class="pricing-period">/ month</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Core Technical SEO Setup
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> 2 Managed Social Channels
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Monthly Performance Review
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Standard Email Support
+              </li>
+              <li class="pricing-feature-item muted">
+                <i class="bi bi-dash-circle"></i> Paid PPC Campaign Management
+              </li>
+              <li class="pricing-feature-item muted">
+                <i class="bi bi-dash-circle"></i> Dedicated Slack Squad
+              </li>
+            </ul>
+            <a href="contact.html" class="btn-outline-orange w-100">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- Growth Tier (Featured) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="pricing-card featured">
+            <span class="pricing-badge-popular">Recommended</span>
+            <h3 class="pricing-tier-name">Growth</h3>
+            <p class="pricing-tier-desc">Designed for scaling companies seeking aggressive customer acquisition.</p>
+            <div class="pricing-amount-wrap">
+              <span class="pricing-currency">$</span>
+              <span class="pricing-number">2,999</span>
+              <span class="pricing-period">/ month</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Full Technical &amp; On-Page SEO
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> 4 Managed Social Channels
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Google Ads &amp; Paid Social Management
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Bi-Weekly Growth Strategy Calls
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Conversion Rate Optimization
+              </li>
+              <li class="pricing-feature-item muted">
+                <i class="bi bi-dash-circle"></i> Custom Web Application Build
+              </li>
+            </ul>
+            <a href="contact.html" class="btn-orange w-100">Get Started With Growth</a>
+          </div>
+        </div>
+
+        <!-- Premium Tier -->
+        <div class="col-lg-4 col-md-12">
+          <div class="pricing-card">
+            <h3 class="pricing-tier-name">Premium</h3>
+            <p class="pricing-tier-desc">Full omnichannel execution and dedicated account director for market leaders.</p>
+            <div class="pricing-amount-wrap">
+              <span class="pricing-currency">$</span>
+              <span class="pricing-number">4,999</span>
+              <span class="pricing-period">/ month</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Comprehensive Omnichannel Execution
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Multi-Network Ad Spend Optimization
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Custom Web &amp; Funnel Engineering
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Dedicated Slack Channel &amp; Director
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Custom Reporting Dashboard
+              </li>
+              <li class="pricing-feature-item">
+                <i class="bi bi-check-circle-fill"></i> Priority Support &amp; SLA
+              </li>
+            </ul>
+            <a href="contact.html" class="btn-outline-orange w-100">Contact For Custom Proposal</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Blog & Resources Preview
+       ========================================================================= -->
+  <section class="py-5" style="background-color: var(--warm-cream);">
+    <div class="container py-4">
+      <div class="d-flex align-items-end justify-content-between flex-wrap gap-3 mb-5">
+        <div>
+          <div class="badge-pill-peach">
+            <span>Growth Playbooks</span>
+          </div>
+          <h2 class="section-heading mb-0">
+            Latest Marketing <span class="text-orange">Insights</span>
+          </h2>
+        </div>
+        <a href="blog.html" class="btn-outline-orange">
+          View All Articles <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="row g-4">
+        <!-- Blog Card 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-card">
+            <div class="blog-thumb-wrap">
+              <img src="images/project_2.jpg" alt="SEO Strategy 2026" class="blog-img" loading="lazy">
+              <span class="blog-tag-pill">SEO</span>
+              <span class="blog-reading-time"><i class="bi bi-clock"></i> 6 min read</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta-row">
+                <span><i class="bi bi-calendar3"></i> Oct 12, 2026</span>
+                <span>&bull;</span>
+                <span>Organic Search</span>
+              </div>
+              <h3 class="blog-title">
+                <a href="blog/sample-article.html">The 2026 Organic Search Playbook: How Search Intent Has Shifted</a>
+              </h3>
+              <p class="blog-excerpt">
+                Discover why traditional keyword stuffing is obsolete and how semantic topic clustering drives sustained search dominance.
+              </p>
+              <div class="blog-footer">
+                <div class="blog-author">
+                  <img src="images/avatar_1.jpg" alt="Elena Rostova" class="blog-author-img">
+                  <span class="blog-author-name">Elena Rostova</span>
+                </div>
+                <a href="blog/sample-article.html" class="blog-read-link">Read More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-card">
+            <div class="blog-thumb-wrap">
+              <img src="images/project_4.jpg" alt="PPC Ad Spend Efficiency" class="blog-img" loading="lazy">
+              <span class="blog-tag-pill">Google Ads</span>
+              <span class="blog-reading-time"><i class="bi bi-clock"></i> 5 min read</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta-row">
+                <span><i class="bi bi-calendar3"></i> Sep 28, 2026</span>
+                <span>&bull;</span>
+                <span>Paid Acquisition</span>
+              </div>
+              <h3 class="blog-title">
+                <a href="blog/sample-article.html">Cutting Customer Acquisition Costs With Full-Funnel Retargeting</a>
+              </h3>
+              <p class="blog-excerpt">
+                Learn how integrating smart audience segments with dynamic creative variants lowers CAC while maintaining purchase volume.
+              </p>
+              <div class="blog-footer">
+                <div class="blog-author">
+                  <img src="images/avatar_2.jpg" alt="Marcus Vance" class="blog-author-img">
+                  <span class="blog-author-name">Marcus Vance</span>
+                </div>
+                <a href="blog/sample-article.html" class="blog-read-link">Read More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-card">
+            <div class="blog-thumb-wrap">
+              <img src="images/project_1.jpg" alt="Conversion Rate UX" class="blog-img" loading="lazy">
+              <span class="blog-tag-pill">Web Design</span>
+              <span class="blog-reading-time"><i class="bi bi-clock"></i> 7 min read</span>
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta-row">
+                <span><i class="bi bi-calendar3"></i> Sep 14, 2026</span>
+                <span>&bull;</span>
+                <span>Conversion UX</span>
+              </div>
+              <h3 class="blog-title">
+                <a href="blog/sample-article.html">7 Subtle UX Tweaks That Significantly Increase Checkout Conversions</a>
+              </h3>
+              <p class="blog-excerpt">
+                From micro-interactions to mobile navigation simplicity, discover actionable changes you can make to your web store today.
+              </p>
+              <div class="blog-footer">
+                <div class="blog-author">
+                  <img src="images/avatar_3.jpg" alt="David Miller" class="blog-author-img">
+                  <span class="blog-author-name">David Miller</span>
+                </div>
+                <a href="blog/sample-article.html" class="blog-read-link">Read More <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: FAQ Accordion (8 Required Questions)
+       ========================================================================= -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="badge-pill-peach">
+          <span>Common Questions</span>
+        </div>
+        <h2 class="section-heading">
+          Frequently Asked <span class="text-orange">Questions</span>
+        </h2>
+        <p class="section-desc">
+          Clear, realistic answers about our working process, timelines, services, and expectations.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9">
+          <div class="accordion accordion-custom" id="faqAccordion">
+            
+            <!-- Question 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What services does BrightMark provide?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  BrightMark provides end-to-end digital solutions across 10 core disciplines: Web Design &amp; Development, E-commerce Development, Search Engine Optimization (SEO), Social Media Marketing, Google Ads &amp; PPC, Content Marketing, Branding &amp; Graphic Design, Email Marketing, Website Redesign, and Local SEO &amp; Marketing.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How does the project process work?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Our structured process follows 5 straightforward stages: 1) Understanding Your Goals, 2) Research &amp; Strategy, 3) Design &amp; Development, 4) Review &amp; Feedback, and 5) Launch &amp; Support. Every project includes dedicated milestones and continuous communication.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How long does a website project take?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  A standard responsive business website or landing page typically takes between 3 to 6 weeks from kickoff to launch. More complex e-commerce stores and custom web platforms usually range between 6 to 10 weeks, depending on scope and agreed revisions.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Can I choose individual services?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes, absolutely. While an integrated approach often yields the best compounding return, you can hire BrightMark for standalone services such as a website redesign, a focused SEO audit, or dedicated Google Ads management.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Do you provide website maintenance?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. We offer ongoing maintenance and support packages covering security checks, speed monitoring, content updates, plugin management, and continuous conversion improvements.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  How do digital marketing campaigns work?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  We begin with audience and competitor research, formulate target customer personas, create tailored creative and copy, configure conversion tracking, and launch campaigns. We then monitor live performance daily, reallocating budget toward the highest-performing channels.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  How is project pricing determined?
+                </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Project pricing is based on the specific deliverables required, timeline urgency, complexity of custom development, and management scope. We provide transparent, itemized quotes before any work begins, with no surprise fees.
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  How can I start a project with BrightMark?
+                </button>
+              </h2>
+              <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Starting is easy! Simply fill out our contact form below or on the <a href="contact.html" class="text-orange fw-bold">Contact Us</a> page. We will review your goals and schedule a discovery consultation to discuss scope, timelines, and strategy.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Section: Contact Us (Heading: "Let's Build Something Great.")
+       ========================================================================= -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="badge-pill-peach">
+          <span>Get In Touch</span>
+        </div>
+        <h2 class="section-heading">
+          Let's Build Something <span class="text-orange">Great.</span>
+        </h2>
+        <p class="section-desc">
+          Tell us about your brand, challenges, and goals. We'll explore how BrightMark can support your growth journey.
+        </p>
+      </div>
+
+      <div class="row g-5">
+        <!-- Contact Info Cards -->
+        <div class="col-lg-5 col-12">
+          <div class="contact-info-card">
+            <h3 class="fs-4 fw-bold text-navy mb-4">Direct Contact</h3>
+
+            <!-- Email -->
+            <div class="contact-method-item">
+              <div class="contact-icon-box">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div>
+                <h4 class="contact-method-title">Email Us</h4>
+                <p class="contact-method-desc">hello@brightmarkagency.com<br>support@brightmarkagency.com</p>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-method-item">
+              <div class="contact-icon-box">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div>
+                <h4 class="contact-method-title">Call Us</h4>
+                <p class="contact-method-desc">+1 (555) 234-5678<br>Mon &ndash; Fri: 9:00 AM &ndash; 6:00 PM EST</p>
+              </div>
+            </div>
+
+            <!-- Consultation Highlight Box -->
+            <div class="contact-highlight-box">
+              <div class="d-flex align-items-center gap-3">
+                <i class="bi bi-calendar-check-fill text-orange fs-3"></i>
+                <div>
+                  <h4 class="fs-6 fw-bold text-navy mb-1">Free Initial Consultation</h4>
+                  <p class="small text-muted mb-0">We discuss your digital goals and outline recommendations with zero obligation.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Project Enquiry Form -->
+        <div class="col-lg-7 col-12">
+          <div class="contact-form-card">
+            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+              <h3 class="fs-4 fw-bold text-navy mb-0">Send Us an Inquiry</h3>
+              <span class="demo-mode-badge"><i class="bi bi-info-circle"></i> Frontend Demo Mode</span>
+            </div>
+
+            <!-- Feedback Alert for Demo Submissions -->
+            <div id="contactFeedback" class="contact-feedback-alert" role="alert"></div>
+
+            <form id="projectContactForm" novalidate>
+              <div class="row g-3">
+                <!-- Full Name — required -->
+                <div class="col-md-6">
+                  <label for="contactName" class="form-label-custom">Full Name <span class="text-orange">*</span></label>
+                  <input type="text" class="form-control form-control-custom" id="contactName" placeholder="e.g. Alex Morgan" required>
+                  <div class="invalid-feedback">Please enter your full name.</div>
+                </div>
+
+                <!-- Email — required & validated -->
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label-custom">Email Address <span class="text-orange">*</span></label>
+                  <input type="email" class="form-control form-control-custom" id="contactEmail" placeholder="alex@company.com" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+
+                <!-- Phone Number — optional -->
+                <div class="col-md-6">
+                  <label for="contactPhone" class="form-label-custom">Phone Number (Optional)</label>
+                  <input type="tel" class="form-control form-control-custom" id="contactPhone" placeholder="+1 (555) 000-0000">
+                </div>
+
+                <!-- Company Name — optional -->
+                <div class="col-md-6">
+                  <label for="contactCompany" class="form-label-custom">Company Name (Optional)</label>
+                  <input type="text" class="form-control form-control-custom" id="contactCompany" placeholder="e.g. Acme Corporation">
+                </div>
+
+                <!-- Service Interested In — selectable -->
+                <div class="col-md-6">
+                  <label for="contactService" class="form-label-custom">Service Interested In <span class="text-orange">*</span></label>
+                  <select class="form-select form-select-custom" id="contactService" required>
+                    <option value="" selected disabled>Select a service...</option>
+                    <option value="web-design">Web Design &amp; Development</option>
+                    <option value="ecommerce">E-commerce Development</option>
+                    <option value="seo">Search Engine Optimization (SEO)</option>
+                    <option value="social-media">Social Media Marketing</option>
+                    <option value="google-ads">Google Ads &amp; PPC</option>
+                    <option value="content-marketing">Content Marketing</option>
+                    <option value="branding">Branding &amp; Graphic Design</option>
+                    <option value="email-marketing">Email Marketing</option>
+                    <option value="website-redesign">Website Redesign</option>
+                    <option value="local-marketing">Local SEO &amp; Marketing</option>
+                    <option value="multiple">Multiple / Comprehensive Package</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a service of interest.</div>
+                </div>
+
+                <!-- Estimated Budget — optional -->
+                <div class="col-md-6">
+                  <label for="contactBudget" class="form-label-custom">Estimated Budget (Optional)</label>
+                  <select class="form-select form-select-custom" id="contactBudget">
+                    <option value="" selected>Select budget range...</option>
+                    <option value="under-2k">&lt; $2,000</option>
+                    <option value="2k-5k">$2,000 &ndash; $5,000</option>
+                    <option value="5k-10k">$5,000 &ndash; $10,000</option>
+                    <option value="10k-plus">$10,000+</option>
+                    <option value="undecided">Flexible / Discuss Later</option>
+                  </select>
+                </div>
+
+                <!-- Project Details — required -->
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label-custom">Project Details <span class="text-orange">*</span></label>
+                  <textarea class="form-control form-control-custom" id="contactMessage" rows="4" placeholder="Tell us about your brand, current challenges, and target objectives..." required></textarea>
+                  <div class="invalid-feedback">Please share a brief note about your project goals.</div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn-orange w-100 py-3">
+                    Send Inquiry <i class="bi bi-arrow-right"></i>
+                  </button>
+                  <p class="text-center text-muted small mt-2 mb-0">
+                    <i class="bi bi-shield-lock"></i> Your information is safe. We respond within 24 business hours.
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <!-- Top Call To Action Strip -->
+      <div class="footer-top-cta">
+        <div class="row align-items-center justify-content-between g-4">
+          <div class="col-lg-8">
+            <h2 class="footer-cta-title">Ready to Turn Attention Into Real Growth?</h2>
+            <p class="footer-cta-desc">Reach out today to discuss how BrightMark can elevate your digital presence.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="btn btn-light rounded-pill px-4 py-3 fw-bold text-dark shadow-sm">
+              Start Your Project <i class="bi bi-arrow-right text-orange ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Footer Columns -->
+      <div class="row g-5">
+        <!-- Brand Summary -->
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="BrightMark Logo">
+              <circle cx="8" cy="26" r="4.5" fill="#FF650F" />
+              <circle cx="18" cy="22" r="3.5" fill="#FF7A1A" />
+              <path d="M7 26L14 15L22 21L29 7" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M22 7H29V14" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="footer-brand-title">BrightMark</span>
+          </div>
+          <p class="footer-desc">
+            BrightMark is a digital marketing agency focused on helping businesses improve their online presence through creative, data-informed marketing strategies.
+          </p>
+          <div class="footer-social-row">
+            <a href="#" class="footer-social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="footer-social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="footer-social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="footer-social-icon" aria-label="X Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="footer-social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links — Exact Order Required: Home, Our Services, Projects Worked, Blog, Contact Us -->
+        <div class="col-lg-2 col-6">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="projects.html">Projects Worked</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div class="col-lg-3 col-6">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="services/web-design.html">Web Design &amp; Dev</a></li>
+            <li><a href="services/ecommerce.html">E-commerce Solutions</a></li>
+            <li><a href="services/seo.html">Search Engine Optimization</a></li>
+            <li><a href="services/social-media.html">Social Media Marketing</a></li>
+            <li><a href="services/google-ads.html">Google Ads &amp; PPC</a></li>
+            <li><a href="services/content-marketing.html">Content Marketing</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-col-title">Newsletter</h4>
+          <p class="small text-muted mb-2">Subscribe for actionable marketing insights and agency updates.</p>
+          <form id="newsletterForm" class="newsletter-form-wrap">
+            <input type="email" class="newsletter-input" placeholder="Enter your email" required aria-label="Work Email">
+            <button type="submit" class="btn-orange py-2 px-3 fs-6" aria-label="Subscribe">
+              <i class="bi bi-send-fill"></i>
+            </button>
+          </form>
+          <small class="text-muted d-block mt-2" style="font-size: 0.72rem;">*Demo subscription mode</small>
+        </div>
+      </div>
+
+      <!-- Bottom Copyright Bar -->
+      <div class="footer-bottom-bar d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div>
+          &copy; <span class="current-year">2026</span> BrightMark Digital Marketing Agency. All rights reserved.
+        </div>
+        <div class="d-flex gap-3 text-muted">
+          <a href="privacy.html" class="text-muted text-decoration-none">Privacy Policy</a>
+          <span>&bull;</span>
+          <a href="terms.html" class="text-muted text-decoration-none">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" id="btn-back-to-top" aria-label="Back to top">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom Vanilla JS -->
+  <script src="script.js"></script>
+</body>
+</html>

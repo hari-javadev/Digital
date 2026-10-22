@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services - BrightMark Digital Marketing Agency</title>
+  
+  <meta name="description" content="Explore BrightMark's comprehensive digital marketing services: Web Design, E-commerce, SEO, Social Media, Google Ads, Content Marketing, and Branding.">
+  <meta name="theme-color" content="#FF650F">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg site-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand-wrapper" href="index.html">
+        <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="BrightMark Logo">
+          <circle cx="8" cy="26" r="4.5" fill="#FF650F" />
+          <circle cx="18" cy="22" r="3.5" fill="#FF7A1A" />
+          <path d="M7 26L14 15L22 21L29 7" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M22 7H29V14" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="brand-text-block">
+          <span class="brand-name">BrightMark</span>
+          <span class="brand-sub">Digital Marketing Agency</span>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+          <!-- 1. Home -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="index.html">Home</a>
+          </li>
+
+          <!-- 2. Our Services (Dropdown - Active) -->
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-link-custom dropdown-toggle active" href="services.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu dropdown-menu-custom shadow-lg" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="services/web-design.html"><i class="bi bi-laptop"></i> Web Design &amp; Development</a></li>
+              <li><a class="dropdown-item" href="services/ecommerce.html"><i class="bi bi-cart3"></i> E-commerce Development</a></li>
+              <li><a class="dropdown-item" href="services/seo.html"><i class="bi bi-search"></i> Search Engine Optimization (SEO)</a></li>
+              <li><a class="dropdown-item" href="services/social-media.html"><i class="bi bi-megaphone"></i> Social Media Marketing</a></li>
+              <li><a class="dropdown-item" href="services/google-ads.html"><i class="bi bi-cursor"></i> Google Ads &amp; PPC</a></li>
+              <li><a class="dropdown-item" href="services/content-marketing.html"><i class="bi bi-file-earmark-text"></i> Content Marketing</a></li>
+              <li><a class="dropdown-item" href="services/branding.html"><i class="bi bi-palette"></i> Branding &amp; Graphic Design</a></li>
+              <li><a class="dropdown-item" href="services/email-marketing.html"><i class="bi bi-envelope-paper"></i> Email Marketing</a></li>
+              <li><a class="dropdown-item" href="services/website-redesign.html"><i class="bi bi-arrow-repeat"></i> Website Redesign</a></li>
+              <li><a class="dropdown-item" href="services/local-marketing.html"><i class="bi bi-geo-alt"></i> Local SEO &amp; Marketing</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item fw-bold text-orange active" href="services.html"><i class="bi bi-grid-fill"></i> View All Services &rarr;</a></li>
+            </ul>
+          </li>
+
+          <!-- 3. Projects Worked -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="projects.html">Projects Worked</a>
+          </li>
+
+          <!-- 4. Blog -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="blog.html">Blog</a>
+          </li>
+
+          <!-- 5. Contact Us -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+
+        <div class="d-none d-lg-block">
+          <a href="contact.html" class="btn-orange navbar-btn-talk">
+            Let's Talk <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Subpage Hero Banner -->
+  <header class="subpage-hero">
+    <div class="container">
+      <ul class="breadcrumb-custom">
+        <li><a href="index.html">Home</a></li>
+        <li class="separator">/</li>
+        <li class="active">Our Services</li>
+      </ul>
+      <div class="badge-pill-peach">
+        <span>Tailored Capabilities</span>
+      </div>
+      <h1 class="subpage-title">
+        Strategic Solutions for <span class="text-orange">Measurable Growth</span>
+      </h1>
+      <p class="subpage-lead">
+        From custom high-converting web engineering to multi-channel customer acquisition campaigns, explore our full spectrum of digital marketing capabilities.
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Services Listing Section -->
+  <main class="py-5">
+    <div class="container py-4">
+      <div class="row g-4">
+
+        <!-- 1. Web Design & Development -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Web Design &amp; Development</h3>
+                <span class="small text-orange fw-bold">Performance Architecture</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              We design and code fast, responsive, and search-optimized business websites that present your value proposition with clarity and drive conversions.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Responsive business websites for all devices</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> High-converting landing pages &amp; funnels</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Custom website development &amp; clean code</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> User experience (UX) and user interface (UI) design</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/web-design.html" class="service-link fw-bold">
+                Explore Web Design Service <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=web-design" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. E-commerce Development -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-cart3"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">E-commerce Development</h3>
+                <span class="small text-orange fw-bold">Revenue-Focused Stores</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Scale your online catalog with seamless e-commerce architectures, intuitive product navigation, quick checkouts, and customer retention mechanisms.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Online store design &amp; storefront branding</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> High-converting product &amp; category pages</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Frictionless shopping cart &amp; checkout integration</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Store speed optimization &amp; mobile shopping UX</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/ecommerce.html" class="service-link fw-bold">
+                Explore E-commerce Service <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=ecommerce" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Search Engine Optimization (SEO) -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-search"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Search Engine Optimization</h3>
+                <span class="small text-orange fw-bold">Organic Search Traction</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Build compounding search authority with technical audits, structured topic clusters, keyword intent mapping, and high-quality backlink acquisition.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Comprehensive technical SEO audits &amp; core web vitals</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> On-page metadata, content structure, and internal linking</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> High-intent commercial keyword research</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Sustainable organic search ranking visibility</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/seo.html" class="service-link fw-bold">
+                Explore SEO Service <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=seo" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Social Media Marketing -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-megaphone"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Social Media Marketing</h3>
+                <span class="small text-orange fw-bold">Audience &amp; Brand Affinity</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Engage target audiences across Instagram, LinkedIn, Facebook, and TikTok with creative storytelling, short-form video, and proactive community management.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Platform-specific social media strategy</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Monthly editorial content calendars</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> High-engagement creative posts, reels &amp; graphics</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Proactive community building &amp; audience engagement</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/social-media.html" class="service-link fw-bold">
+                Explore Social Media Service <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=social-media" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Google Ads & PPC -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-cursor"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Google Ads &amp; PPC</h3>
+                <span class="small text-orange fw-bold">High-Intent Acquisition</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Drive direct sales and qualified leads with data-driven Google Search, Performance Max, Display networks, and remarketing campaigns managed for maximum ROAS.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> High-intent Google Search advertising</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Display &amp; remarketing network campaigns</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Weekly negative keyword &amp; bid optimization</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Strict conversion tracking &amp; CPA minimization</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/google-ads.html" class="service-link fw-bold">
+                Explore Google Ads Service <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=google-ads" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Content Marketing -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-file-earmark-text"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Content Marketing</h3>
+                <span class="small text-orange fw-bold">Authority &amp; Thought Leadership</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Turn complex business solutions into authoritative guides, engaging blog posts, whitepapers, and customer acquisition collateral that converts readers into buyers.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> In-depth SEO blog articles &amp; guides</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> High-converting website &amp; landing page copy</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Strategic editorial content roadmap</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Marketing copywriting with distinct brand voice</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/content-marketing.html" class="service-link fw-bold">
+                Explore Content Marketing <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=content-marketing" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Branding & Graphic Design -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-palette"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Branding &amp; Graphic Design</h3>
+                <span class="small text-orange fw-bold">Visual Distinction</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Establish an unmistakable visual brand identity with custom logos, tailored color palettes, typography guidelines, and digital marketing design assets.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Full brand identity &amp; visual positioning</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Vector logo design &amp; iconography</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Digital marketing &amp; social creative assets</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Comprehensive brand style guidelines</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/branding.html" class="service-link fw-bold">
+                Explore Branding Service <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=branding" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Email Marketing -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-envelope-paper"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Email Marketing</h3>
+                <span class="small text-orange fw-bold">Customer Retention &amp; LTV</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Cultivate lasting customer loyalty and repeat purchases with automated drip campaigns, newsletter templates, audience segmentation, and A/B tested copy.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Automated welcome, abandoned cart &amp; re-engagement flows</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Responsive custom newsletter layouts</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Strategic lead nurturing funnels</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Open-rate, click-rate &amp; attribution tracking</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/email-marketing.html" class="service-link fw-bold">
+                Explore Email Marketing <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=email-marketing" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Website Redesign -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-arrow-repeat"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Website Redesign</h3>
+                <span class="small text-orange fw-bold">Modern Conversion Uplift</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Re-energize your existing digital presence. We overhaul outdated interfaces, resolve technical debt, elevate site speed, and modernize the user journey.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Modern interface design &amp; aesthetic modernization</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Complete mobile responsiveness overhaul</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Usability &amp; conversion funnel improvements</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Page load performance &amp; Core Web Vitals optimization</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/website-redesign.html" class="service-link fw-bold">
+                Explore Website Redesign <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=website-redesign" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Local SEO & Marketing -->
+        <div class="col-lg-6">
+          <div class="service-feature-card">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="service-icon-box mb-0">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div>
+                <h3 class="fs-4 fw-bold text-navy mb-0">Local SEO &amp; Marketing</h3>
+                <span class="small text-orange fw-bold">Regional Prominence</span>
+              </div>
+            </div>
+            <p class="text-muted mb-4">
+              Dominate local search maps and geographic intent queries. We optimize Google Business Profiles, curate directory citations, and target regional shoppers.
+            </p>
+            <ul class="list-unstyled mb-4">
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Google Maps &amp; local search visibility</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Google Business Profile optimization &amp; updates</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Geo-targeted keyword strategy &amp; city pages</li>
+              <li class="service-deliverable-item"><i class="bi bi-check-circle-fill"></i> Local directory citation consistency</li>
+            </ul>
+            <div class="d-flex justify-content-between align-items-center pt-3 border-top border-peach">
+              <a href="services/local-marketing.html" class="service-link fw-bold">
+                Explore Local Marketing <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="contact.html?service=local-marketing" class="btn-outline-orange py-1 px-3 fs-6">Inquire</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Consultation CTA Banner -->
+      <div class="service-cta-card mt-5">
+        <div class="row align-items-center justify-content-between g-4">
+          <div class="col-lg-8">
+            <h3 class="fs-2 fw-bold mb-2">Need a Custom Combination of Services?</h3>
+            <p class="mb-0 fs-6">
+              Our strategists can blend web design, SEO, and paid media into a unified retainer tailored specifically to your quarterly objectives and budget.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="btn-orange">
+              Schedule Free Strategy Call <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="BrightMark Logo">
+              <circle cx="8" cy="26" r="4.5" fill="#FF650F" />
+              <circle cx="18" cy="22" r="3.5" fill="#FF7A1A" />
+              <path d="M7 26L14 15L22 21L29 7" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M22 7H29V14" stroke="#FF650F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="footer-brand-title">BrightMark</span>
+          </div>
+          <p class="footer-desc">
+            BrightMark is a digital marketing agency focused on helping businesses improve their online presence through creative, data-informed marketing strategies.
+          </p>
+        </div>
+
+        <div class="col-lg-2 col-6">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="projects.html">Projects Worked</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-6">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="services/web-design.html">Web Design &amp; Dev</a></li>
+            <li><a href="services/ecommerce.html">E-commerce Solutions</a></li>
+            <li><a href="services/seo.html">Search Engine Optimization</a></li>
+            <li><a href="services/social-media.html">Social Media Marketing</a></li>
+            <li><a href="services/google-ads.html">Google Ads &amp; PPC</a></li>
+            <li><a href="services/content-marketing.html">Content Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-col-title">Newsletter</h4>
+          <p class="small text-muted mb-2">Subscribe for actionable marketing insights and agency updates.</p>
+          <form class="newsletter-form-wrap">
+            <input type="email" class="newsletter-input" placeholder="Enter your email" required aria-label="Work Email">
+            <button type="submit" class="btn-orange py-2 px-3 fs-6" aria-label="Subscribe">
+              <i class="bi bi-send-fill"></i>
+            </button>
+          </form>
+          <small class="text-muted d-block mt-2" style="font-size: 0.72rem;">*Demo subscription mode</small>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <div>
+          &copy; <span class="current-year">2026</span> BrightMark Digital Marketing Agency. All rights reserved.
+        </div>
+        <div class="d-flex gap-3 text-muted">
+          <a href="privacy.html" class="text-muted text-decoration-none">Privacy Policy</a>
+          <span>&bull;</span>
+          <a href="terms.html" class="text-muted text-decoration-none">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" id="btn-back-to-top" aria-label="Back to top">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
